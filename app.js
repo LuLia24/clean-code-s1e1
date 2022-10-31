@@ -26,10 +26,12 @@ var createNewTaskElement=function(taskString){
     //label
     var label=document.createElement("span");//label
     label.classList.add("item__span")
+    label.classList.add("text")
     label.innerText=taskString;
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.classList.add("item__input")
+    editInput.classList.add("text")
     //button.edit
     var editButton=document.createElement("button");//edit button
     editButton.classList.add("button");
