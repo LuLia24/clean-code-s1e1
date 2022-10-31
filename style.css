@@ -120,10 +120,6 @@ body {
   align-items: center;
 }
 
-.item  > * {
-  vertical-align: middle;
-}
-
 .item__checkbox {
   margin: 0 10px;
 }
