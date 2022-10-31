@@ -51,7 +51,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
     list-style: none;
 }
 
@@ -75,7 +75,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
     color: #333;
     font-weight: 700;
@@ -131,7 +131,7 @@ li > input[type="checkbox"] {
     margin: 0 10px;
 }
 
-li > label {
+li > span {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -153,7 +153,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks span {
     text-decoration: line-through;
     color: #888;
 }
@@ -168,6 +168,6 @@ ul li.editMode input[type=text] {
     width: 224px;
 }
 
-ul li.editMode label {
+ul li.editMode span {
     display: none;
 }
