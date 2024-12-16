@@ -133,6 +133,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888888;
+  display: none;
 }
 
 .item__input:focus {
@@ -156,10 +157,6 @@
 }
 
 /* Edit Task */
-.item__input {
-  display: none;
-}
-
 .item_edit .item__input {
   display: inline-block;
   width: 224px;
