@@ -42,7 +42,7 @@ var deleteButton=document.createElement("button");//delete button
 deleteButton.classList.add("button");
 var deleteButtonImg=document.createElement("img");//delete button image
 deleteButtonImg.classList.add("item__delete-img")
-deleteButtonImg.alt = "delete icon";
+deleteButtonImg.alt = "remove icon";
 
 //Each elements, needs appending
 checkBox.type="checkbox";
